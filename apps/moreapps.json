@@ -3,7 +3,19 @@
     "apps": [
         {
             "name": "bs",
-            "appleid": 121212
+            "appleid": 121212,
+            "order": 0,
+            "imgurl": "",
+            "i18n": {
+                "en": {
+                    "name": "bs_en",
+                    "desc": "desc_en"
+                },
+                "zhs": {
+                    "name": "bs_zhs",
+                    "desc": "bs_desc"
+                }
+            }
         },
         {
             "name": "ss",
