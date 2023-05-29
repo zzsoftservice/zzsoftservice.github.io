@@ -1,0 +1,13 @@
+{
+    "version": "1.0.0",
+    "apps": [
+        {
+            "name": "bs",
+            "appleid": 121212
+        },
+        {
+            "name": "ss",
+            "appleid": 121212
+        }
+    ]
+}
