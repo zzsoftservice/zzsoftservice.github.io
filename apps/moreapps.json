@@ -6,16 +6,23 @@
             "appleid": 121212,
             "order": 0,
             "imgurl": "",
-            "i18n": {
-                "en": {
+            "i18ns": [
+                {
+                    "code": "en",
                     "name": "bs_en",
                     "desc": "desc_en"
                 },
-                "zhs": {
+                {
+                    "code": "zh-CHS",
+                    "name": "bs_zhs",
+                    "desc": "bs_desc"
+                },
+                {
+                    "code": "ja",
                     "name": "bs_zhs",
                     "desc": "bs_desc"
                 }
-            }
+            ]
         },
         {
             "name": "ss",
