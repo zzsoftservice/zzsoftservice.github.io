@@ -3,9 +3,9 @@
     "apps": [
         {
             "name": "bs",
-            "appleid": 121212,
+            "appleid": 1638936275,
             "order": 0,
-            "imgurl": "",
+            "imgurl": "https://zzsoftservice.github.io/res/imgs/icons/beyondscan.png",
             "i18ns": [
                 {
                     "code": "en",
@@ -26,7 +26,26 @@
         },
         {
             "name": "ss",
-            "appleid": 121212
+            "appleid": 1668527468,
+            "order": 1,
+            "imgurl": "https://zzsoftservice.github.io/res/imgs/icons/sizesnap.png",
+            "i18ns": [
+                {
+                    "code": "en",
+                    "name": "bs_en",
+                    "desc": "desc_en"
+                },
+                {
+                    "code": "zh-CHS",
+                    "name": "bs_zhs",
+                    "desc": "bs_desc"
+                },
+                {
+                    "code": "ja",
+                    "name": "bs_zhs",
+                    "desc": "bs_desc"
+                }
+            ]
         }
     ]
 }
