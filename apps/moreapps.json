@@ -9,18 +9,15 @@
             "i18ns": [
                 {
                     "code": "en",
-                    "name": "bs_en",
-                    "desc": "desc_en"
+                    "name": "Beyond Scan",
+                    "subtitle": "OCR & PDF Scanner App",
+                    "desc": "Document Scan Edit & Converter"
                 },
                 {
-                    "code": "zh-CHS",
-                    "name": "bs_zhs",
-                    "desc": "bs_desc"
-                },
-                {
-                    "code": "ja",
-                    "name": "bs_zhs",
-                    "desc": "bs_desc"
+                    "code": "zh",
+                    "name": "Beyond Scan",
+                    "subtitle": "OCR文字识别与文件扫描全能处理",
+                    "desc": "文件扫描，图片和照片转PDF"
                 }
             ]
         },
@@ -32,18 +29,15 @@
             "i18ns": [
                 {
                     "code": "en",
-                    "name": "bs_en",
-                    "desc": "desc_en"
+                    "name": "SizeSnap",
+                    "subtitle": "Mark & save your measurements",
+                    "desc": ""
                 },
                 {
-                    "code": "zh-CHS",
-                    "name": "bs_zhs",
-                    "desc": "bs_desc"
-                },
-                {
-                    "code": "ja",
-                    "name": "bs_zhs",
-                    "desc": "bs_desc"
+                    "code": "zh",
+                    "name": "尺寸快记",
+                    "subtitle": "快速标注您的测量数据，手机里的量房神器，装修设计师的好帮手",
+                    "desc": ""
                 }
             ]
         }
