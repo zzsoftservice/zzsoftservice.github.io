@@ -1,8 +1,8 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "apps": [
         {
-            "name": "bs",
+            "name": "BeyondScan",
             "appleid": 1638936275,
             "order": 0,
             "imgurl": "https://zzsoftservice.github.io/res/imgs/icons/beyondscan.png",
@@ -18,11 +18,17 @@
                     "name": "Beyond Scan",
                     "subtitle": "OCR文字识别与文件扫描全能处理",
                     "desc": "文件扫描，图片和照片转PDF"
+                },
+                {
+                    "code": "zh-Hant",
+                    "name": "Beyond Scan",
+                    "subtitle": "OCR文字識別與文件掃描全能處理",
+                    "desc": "文件掃描，圖片和照片轉PDF"
                 }
             ]
         },
         {
-            "name": "ss",
+            "name": "SizeSnap",
             "appleid": 1668527468,
             "order": 1,
             "imgurl": "https://zzsoftservice.github.io/res/imgs/icons/sizesnap.png",
@@ -37,6 +43,12 @@
                     "code": "zh",
                     "name": "尺寸快记",
                     "subtitle": "快速标注您的测量数据，手机里的量房神器，装修设计师的好帮手",
+                    "desc": ""
+                },
+                {
+                    "code": "zh-Hant",
+                    "name": "尺寸快記",
+                    "subtitle": "快速標註您的測量數據，手機裡的量房神器，裝修設計師的好幫手",
                     "desc": ""
                 }
             ]
