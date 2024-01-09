@@ -1,0 +1,13 @@
+{
+	"version": "1.0.0",
+	"rate": {
+		"launchCount": 1,
+		"exportCount": 1,
+		"docCount": 1
+	},
+	"review": {
+		"launchCount": 10,
+		"exportCount": 10,
+		"docCount": 10
+	}
+}
