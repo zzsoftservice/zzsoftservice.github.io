@@ -76,6 +76,38 @@
                     "desc": "採寸したものを素早くマーキング、スマホに採寸器、デコレーターの良き助っ人"
                 }
             ]
+        },
+        {
+            "name": "WatermarkX",
+            "appleid": 6504436456,
+            "order": 2,
+            "imgurl": "https://zzsoftservice.github.io/res/imgs/icons/wartermarkx.png",
+            "i18ns": [
+                {
+                    "code": "en",
+                    "name": "WatermarkX",
+                    "subtitle": "Batch add watermarks to pictures",
+                    "desc": ""
+                },
+                {
+                    "code": "zh",
+                    "name": "水印快加",
+                    "subtitle": "批量添加水印到图片上",
+                    "desc": ""
+                },
+                {
+                    "code": "zh-Hans",
+                    "name": "水印快加",
+                    "subtitle": "批量添加水印到图片上",
+                    "desc": ""
+                },
+                {
+                    "code": "zh-Hant",
+                    "name": "浮水印快加",
+                    "subtitle": "批量添加浮水印到圖片上",
+                    "desc": ""
+                }
+            ]
         }
     ]
 }
