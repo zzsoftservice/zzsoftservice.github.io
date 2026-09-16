@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="CADReader is a local-first 2D DXF viewer for iPhone and iPad.">
+  <title>CADReader — Local-first DXF viewing</title>
+  <style>
+    :root{color-scheme:light dark;--bg:#f3f2ee;--card:#fff;--ink:#111;--muted:#626262;--line:#d8d6cf;--accent:#111;--inverse:#fff}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit}nav,main,footer{max-width:1120px;margin:auto;padding-left:24px;padding-right:24px}nav{height:82px;display:flex;align-items:center;justify-content:space-between}.brand{font-size:21px;font-weight:760;letter-spacing:-.02em;text-decoration:none}.navlinks{display:flex;gap:22px;font-size:14px}.navlinks a{text-decoration:none}.hero{padding:92px 0 76px;display:grid;grid-template-columns:1.15fr .85fr;gap:64px;align-items:center}.eyebrow{display:inline-block;background:var(--accent);color:var(--inverse);border-radius:999px;padding:7px 14px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}.hero h1{font-size:clamp(54px,7vw,92px);line-height:.98;letter-spacing:-.055em;margin:26px 0}.lead{font-size:20px;color:var(--muted);max-width:650px}.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}.button{display:inline-block;border:1px solid var(--ink);border-radius:12px;padding:12px 18px;text-decoration:none;font-weight:650}.button.primary{background:var(--ink);color:var(--inverse)}.drawing{aspect-ratio:4/5;background:#111;border-radius:28px;padding:24px;box-shadow:0 24px 60px #0002;transform:rotate(2deg);overflow:hidden}.drawing svg{width:100%;height:100%;stroke:#e8e8e8;fill:none;stroke-width:2}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:50px 0}.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:26px}.card b{display:block;font-size:19px;margin-bottom:8px}.card p{margin:0;color:var(--muted)}.note{margin:42px 0 80px;border-left:5px solid var(--ink);padding:18px 24px;background:var(--card);border-radius:0 16px 16px 0}.note h2{margin:0 0 8px;font-size:20px}.note p{margin:0;color:var(--muted)}footer{border-top:1px solid var(--line);padding-top:28px;padding-bottom:52px;display:flex;justify-content:space-between;gap:24px;color:var(--muted);font-size:14px}.legal{display:flex;gap:18px;flex-wrap:wrap}@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:52px}.drawing{max-width:420px}.grid{grid-template-columns:1fr}.navlinks a:first-child{display:none}footer{flex-direction:column}}@media(prefers-color-scheme:dark){:root{--bg:#0c0c0c;--card:#171717;--ink:#f4f4f4;--muted:#aaa;--line:#343434;--accent:#f4f4f4;--inverse:#111}.drawing{border:1px solid #333}}
+  </style>
+</head>
+<body>
+  <nav>
+    <a class="brand" href="./">CADReader</a>
+    <div class="navlinks"><a href="#features">Features</a><a href="support.html">Support / 支持</a></div>
+  </nav>
+  <main>
+    <section class="hero">
+      <div>
+        <span class="eyebrow">Local-first CAD viewer</span>
+        <h1>Drawings,<br>ready on site.</h1>
+        <p class="lead">Open supported 2D DXF drawings on iPhone and iPad. Organize files, inspect layers and layouts, search text, and measure—without creating an account.</p>
+        <div class="cta"><a class="button primary" href="support.html">Get support</a><a class="button" href="static/privacy_policy.html">Privacy</a></div>
+      </div>
+      <div class="drawing" aria-hidden="true">
+        <svg viewBox="0 0 400 500"><path d="M35 35h330v430H35zM35 120h330M120 35v430M270 120v345M120 290h150M270 220h95M70 160h22v60H70zM160 160h74v70h-74zM155 325h80v105h-80zM292 260h45v72h-45z"/><path d="M120 285a34 34 0 0134-34M270 215a32 32 0 0132-32M120 118a28 28 0 0128 28"/><circle cx="195" cy="377" r="8"/><path d="M45 452h65M290 452h65M52 108l58-58M280 108l72-58"/></svg>
+      </div>
+    </section>
+    <section id="features" class="grid">
+      <div class="card"><b>Organize clearly</b><p>Import from Files, create nested folders, search, pin, rename, move, sort, and recover items from a 30-day Trash.</p></div>
+      <div class="card"><b>Inspect the drawing</b><p>Pan and zoom, switch layouts, manage layers, search drawing text, and review drawing-health information.</p></div>
+      <div class="card"><b>Measure carefully</b><p>Distance, angle, area, perimeter, continuous distance, object snapping, and explicit unit or scale confirmation.</p></div>
+      <div class="card"><b>Private by default</b><p>No account, advertising SDK, or cross-app tracking. Drawings stay in local app storage unless you choose to share them.</p></div>
+      <div class="card"><b>Built for mobile</b><p>A focused black-and-white interface, touch-friendly controls, and workflows designed for both iPhone and iPad.</p></div>
+      <div class="card"><b>Honest diagnostics</b><p>Unsupported content fails closed. Local diagnostics omit drawing contents and are shared only when you choose.</p></div>
+    </section>
+    <section class="note">
+      <h2>Current format boundary</h2>
+      <p>This release previews supported entities in 2D ASCII DXF files through a limited built-in engine. DWG files can be imported and identified, but production DWG rendering is not included in this version. Always verify critical drawing information and measurements before consequential use.</p>
+    </section>
+  </main>
+  <footer>
+    <span>© 2026 LIPEI ZHANG</span>
+    <div class="legal"><a href="support.html">Support</a><a href="static/privacy_policy.html">Privacy</a><a href="static/privacy_policy_zh-Hans.html">隐私政策</a><a href="static/user_agreement.html">Terms</a><a href="static/user_agreement_zh-Hans.html">用户协议</a></div>
+  </footer>
+</body>
+</html>

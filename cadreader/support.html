@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="CADReader support and frequently asked questions.">
+  <title>CADReader Support / 支持</title>
+  <style>
+    :root{color-scheme:light dark;--bg:#f3f2ee;--card:#fff;--ink:#111;--muted:#626262;--line:#d8d6cf}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit}.wrap{max-width:920px;margin:auto;padding:0 24px}nav{height:82px;display:flex;align-items:center;justify-content:space-between}.brand{font-size:21px;font-weight:760;text-decoration:none}.hero{padding:64px 0 42px}.hero h1{font-size:clamp(44px,7vw,76px);line-height:1;letter-spacing:-.045em;margin:0 0 22px}.hero p{font-size:19px;color:var(--muted);max-width:720px}.contact{display:inline-block;margin-top:16px;background:var(--ink);color:var(--bg);padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:680}.lang{margin:22px 0 34px;display:flex;gap:12px}.lang a{border:1px solid var(--line);padding:7px 12px;border-radius:999px;text-decoration:none}.section{margin:52px 0}.section h2{font-size:28px;letter-spacing:-.02em}.faq{display:grid;gap:14px}details{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px}summary{font-weight:680;cursor:pointer}details p{color:var(--muted);margin-bottom:0}.links{display:flex;gap:18px;flex-wrap:wrap;padding:28px 0 52px;border-top:1px solid var(--line);font-size:14px}@media(prefers-color-scheme:dark){:root{--bg:#0c0c0c;--card:#171717;--ink:#f4f4f4;--muted:#aaa;--line:#343434}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav><a class="brand" href="./">CADReader</a><a href="mailto:zzsoftservice@outlook.com">Email us</a></nav>
+    <section class="hero">
+      <h1>How can we help?</h1>
+      <p>For help with CADReader, send us a message with your app version, device model, iOS version, and a short description of what happened. Please do not attach confidential drawings unless you have permission and they are necessary to investigate the issue.</p>
+      <a class="contact" href="mailto:zzsoftservice@outlook.com?subject=CADReader%20Support">zzsoftservice@outlook.com</a>
+      <div class="lang"><a href="#english">English</a><a href="#chinese">简体中文</a></div>
+    </section>
+    <section id="english" class="section">
+      <h2>Frequently asked questions</h2>
+      <div class="faq">
+        <details open><summary>How do I import a drawing?</summary><p>Tap Import in CADReader and choose a file from the system Files picker, or use Open In / Share from another app. CADReader copies the imported file into its local library so the original remains under your control.</p></details>
+        <details><summary>Which formats are currently displayed?</summary><p>The current built-in engine previews a supported subset of 2D ASCII DXF entities. DWG files can be imported and identified, but production DWG rendering is not included in this version. Unsupported or incomplete content is reported instead of being shown as complete.</p></details>
+        <details><summary>Where are my drawings stored?</summary><p>Your library stays in CADReader's local app storage by default. No account or cloud upload is required. Preserve the original source files or export important files before deleting the app; deleting the app can remove its local data.</p></details>
+        <details><summary>Can I rely on a displayed measurement?</summary><p>CADReader is a convenience viewer, not a calibrated surveying or engineering instrument. Confirm units and scale, review any warnings, and verify critical dimensions against the authoritative source and with a qualified professional.</p></details>
+        <details><summary>How does Trash work?</summary><p>Deleted library items remain recoverable in Trash for up to 30 days unless you permanently delete them sooner. After permanent deletion or expiry, recovery may not be possible.</p></details>
+        <details><summary>What should I include in a support request?</summary><p>Include the app version, device, iOS version, format, and reproducible steps. CADReader's local diagnostic report is designed to omit filenames, paths, drawing text, coordinates, and drawing contents; review it before sharing.</p></details>
+      </div>
+    </section>
+    <section id="chinese" class="section" lang="zh-Hans">
+      <h2>常见问题</h2>
+      <div class="faq">
+        <details open><summary>怎样导入图纸？</summary><p>在 CADReader 中点击“导入”，通过系统“文件”选择器选取文件；也可以在其他 App 中使用“用其他应用打开”或分享功能。CADReader 会把导入文件复制到本地图纸库，原文件仍由你控制。</p></details>
+        <details><summary>当前能显示哪些格式？</summary><p>当前内置引擎可以预览二维 ASCII DXF 中受支持的部分实体。DWG 文件可以导入和识别，但当前版本尚未包含生产级 DWG 渲染。不支持或不完整的内容会明确提示，不会伪装成完整图纸。</p></details>
+        <details><summary>图纸存在哪里？</summary><p>图纸库默认保存在 CADReader 的本地 App 存储中，不需要注册账号或上传云端。删除 App 可能同时删除其中的本地数据，请保留原始源文件，或在删除 App 前导出重要文件。</p></details>
+        <details><summary>可以直接依赖 App 中的测量结果吗？</summary><p>CADReader 是便捷看图工具，不是经过校准的测绘或工程仪器。请确认单位和比例，查看所有警告，并对照权威源文件、由具备资质的专业人员复核关键尺寸。</p></details>
+        <details><summary>回收站怎样工作？</summary><p>删除的图纸库项目会在回收站中保留最多 30 天，除非你提前永久删除。永久删除或到期清理后，内容可能无法恢复。</p></details>
+        <details><summary>联系支持时需要提供什么？</summary><p>请提供 App 版本、设备型号、iOS 版本、文件格式和复现步骤。本地诊断报告会尽量排除文件名、路径、图纸文字、坐标和图纸内容；分享前仍请自行检查。</p></details>
+      </div>
+    </section>
+    <div class="links"><a href="static/privacy_policy.html">Privacy Policy</a><a href="static/privacy_policy_zh-Hans.html">隐私政策</a><a href="static/user_agreement.html">Terms of Use</a><a href="static/user_agreement_zh-Hans.html">用户协议</a></div>
+  </div>
+</body>
+</html>
