@@ -1,8 +1,13 @@
-# CameraMark legal-site deployment
+# FrameTales legal-site deployment
 
-This directory is the single source for CameraMark's marketing, support, privacy, and
+This directory is the single source for FrameTales's marketing, support, privacy, and
 purchase-terms pages. The App also bundles the two files under `static/` plus
 `assets/site.css`, so legal text changes must be made here first.
+
+The public `/cameramark/` paths are intentionally retained after the FrameTales
+(相框故事) rebrand so existing App Store and app links continue to work. The app is
+published under the PixelPlay brand. The September 22, 2026 update changes branding
+only; it does not change the privacy or purchase provisions.
 
 ## Verified target
 
@@ -13,7 +18,7 @@ purchase-terms pages. The App also bundles the two files under `static/` plus
 
 At the 2026-09-02 audit, the site repository was on `main` at `84611ba` and already
 contained an unrelated untracked `cadreader/` directory. Never use `git add .`, clean,
-reset, or another broad operation in that repository while publishing CameraMark.
+reset, or another broad operation in that repository while publishing FrameTales.
 
 ## Owner-authorized publish procedure
 
@@ -21,7 +26,7 @@ reset, or another broad operation in that repository while publishing CameraMark
    inspect its current contents before changing it.
 2. Copy this directory to the site repository as `cameramark/`. Do not delete or
    overwrite any sibling directory.
-3. Inspect `git status --short -- cameramark` and the complete CameraMark-only diff.
+3. Inspect `git status --short -- cameramark` and the complete FrameTales-only diff.
 4. Stage only `cameramark/` with `git add -- cameramark`; verify the staged name-status
    list and `git diff --cached --check` before committing.
 5. Commit and push only after the repository owner explicitly authorizes those external
