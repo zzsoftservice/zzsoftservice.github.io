@@ -1,16 +1,16 @@
-# CADReader 商店网站与法律页面
+# 图帆CAD / DraftSail 商店网站与法律页面
 
-更新：2026-09-22。此目录是静态 GitHub Pages 内容，修改文件不等于已发布。
+更新：2026-10-11。正式品牌为图帆CAD / DraftSail；网站目录与路径已统一为 draftsail。此目录是静态 GitHub Pages 内容，修改文件不等于已发布。
 
 ## 路径
 
-- 产品介绍：`/cadreader/`
-- 英文支持：`/cadreader/support.html#english`
-- 简体中文支持：`/cadreader/support.html#chinese`
-- 英文隐私政策：`/cadreader/static/privacy_policy.html`
-- 简体中文隐私政策：`/cadreader/static/privacy_policy_zh-Hans.html`
-- 英文用户协议：`/cadreader/static/user_agreement.html`
-- 简体中文用户协议：`/cadreader/static/user_agreement_zh-Hans.html`
+- 产品介绍：`/draftsail/`
+- 英文支持：`/draftsail/support.html#english`
+- 简体中文支持：`/draftsail/support.html#chinese`
+- 英文隐私政策：`/draftsail/static/privacy_policy.html`
+- 简体中文隐私政策：`/draftsail/static/privacy_policy_zh-Hans.html`
+- 英文用户协议：`/draftsail/static/user_agreement.html`
+- 简体中文用户协议：`/draftsail/static/user_agreement_zh-Hans.html`
 - 旧版 `privacypolicy.html`、`privacypolicy_zhs.html` 保留跳转，不应删除。
 
 ## 发布核对
