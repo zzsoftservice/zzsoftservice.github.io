@@ -41,13 +41,13 @@
         On-device records
       </h2>
       <p>
-        FormTrace does not require an account and does not operate a server for your body photos or measurements. Photos, record dates, views, notes, manually entered measurements and editing instructions are stored in the app’s local container. We do not sell this information, include advertising SDKs, or track you across apps and websites.
+        FormTrace does not require an account and does not operate a server for your body photos or measurements. Photos, record dates, views, notes, manually entered measurements and editing instructions are stored in the app’s local container by default. Optional iCloud sync uses your existing Apple Account; no FormTrace account is created. We do not sell this information, include advertising SDKs, or track you across apps and websites.
       </p>
       <h2>
         Optional questionnaire and illustrations
       </h2>
       <p>
-        You may provide your gender, age, height, current and target weight, goals, motivation, activity level, recording difficulties and preferred recording frequency. These optional answers remain in your protected local archive and are included in a complete encrypted export. They are not uploaded, do not create measured check-ins and do not enable notifications. Gender selects a demonstration illustration and pose guide; it never changes your own photos. Edit answers in My profile, or clear the local archive to remove them.
+        You may provide your gender, age, height, current and target weight, goals, motivation, activity level, recording difficulties and preferred recording frequency. These optional answers remain in your protected local archive and are included in a complete encrypted export. They are uploaded to your private iCloud database only if you enable sync. They do not create measured check-ins or enable notifications. Gender selects a demonstration illustration and pose guide; it never changes your own photos. Edit answers in My profile, or clear the local archive to remove them.
       </p>
       <h2>
         Selected photos and metadata
@@ -56,10 +56,16 @@
         When you choose a photo, FormTrace reads the delivered file, its image dimensions, format, orientation and available capture date. The file is kept unchanged, so embedded metadata may include location. Camera capture is used only when you request it and grant system permission. Imported iCloud Photos items may be downloaded by Apple; this is separate from FormTrace uploading an archive.
       </p>
       <h2>
+        Optional iCloud sync
+      </h2>
+      <p>
+        Sync is off by default. If you enable it in Settings, original photos (including metadata such as location), record dates and views, notes, measurements, edits and questionnaire answers are uploaded to the private CloudKit database associated with your Apple Account. Apple operates this service under its iCloud terms and privacy policy; we do not operate a separate data server. The app uses encrypted CloudKit fields for content and CloudKit assets for original files. Sync uses your iCloud storage and network connection. Display preferences, device authentication and notification settings remain device-specific. Sync runs while the app is open and unlocked and pauses in the background. Account changes pause synchronization; the archive stays bound to the original account.
+      </p>
+      <h2>
         Protection and automatic backup
       </h2>
       <p>
-        The app applies iOS file protection to its archive, database, working files and exports. Its local photo and measurement archive is excluded from automatic system backup. Optional device authentication uses Apple’s LocalAuthentication interface; FormTrace does not receive Face ID biometric templates or your device passcode. A privacy cover conceals app content when it is inactive or in the background.
+        The app applies iOS file protection to its archive, database, working files and exports. Its local photo and measurement archive is excluded from automatic system backup. Optional iCloud sync is separate from system backup and does not replace an independently saved password-encrypted archive. Optional device authentication uses Apple’s LocalAuthentication interface; FormTrace does not receive Face ID biometric templates or your device passcode. A privacy cover conceals app content when it is inactive or in the background.
       </p>
       <h2>
         User-controlled export and migration
@@ -89,7 +95,7 @@
         Deletion
       </h2>
       <p>
-        Delete a record or clear the local archive to remove the originals, measurements and editing data managed by the app. Interrupted file cleanup is retried when the app next checks its archive. Deleting the app removes its local container. External exports and selected providers’ copies must be deleted at their destination.
+        Deleting a record while sync is enabled sends its deletion to enabled devices. Incoming changes that would remove or replace a local original wait for a separate review on that device; until approved, the current local archive remains readable and exportable. Concurrent edits and deletions are retained for review, and the edit remains visible until resolved. Unreferenced original files may remain in iCloud until the cloud archive is removed. Turning sync off keeps both local and cloud data. To remove all FormTrace cloud records, conflicts and retained photo files, first turn off sync on every device, then use Settings → iCloud sync → Remove FormTrace data from iCloud and confirm. Local copies stay on each device. Clear the local archive separately to remove this device’s photos, measurements, edits, questionnaire and sync cache. Re-enabling sync merges local and cloud content again; remaining local data can be uploaded again. Interrupted file cleanup is retried when the app next checks its archive. Deleting the app removes its local container. External exports and selected providers’ copies must be deleted at their destination.
       </p>
       <h2>
         Changes and contact
